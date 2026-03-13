@@ -1,0 +1,19 @@
+{
+  "tiempoMaximo": 1800,
+  "puzzles": [
+    {
+      "id": "radio",
+      "descripcion": "Una radio antigua emite números",
+      "tipo": "codigo",
+      "respuesta": "666",
+      "desbloquea": ["puerta_sotano"]
+    },
+    {
+      "id": "puerta_sotano",
+      "descripcion": "Una puerta cerrada con llave",
+      "tipo": "objeto",
+      "respuesta": "llave",
+      "desbloquea": ["salida"]
+    }
+  ]
+}
